@@ -34,3 +34,13 @@ STORE "result_nominal" with nominal_item_A plus nominal_item_B
     PRINT "result_nominal"
 END PROCEDURE
 
+STORE WHILE "ask_for_checkout" with Yes
+WHILE "ask_for_checkout"
+DO "item_name_A"
+
+IF "ask_for_checkout" with No
+    PRINT "checkout"
+
+READ AND WRITE "Addres" with string
+STORE "username" with JL.Anggrek
+PRINT "username"
