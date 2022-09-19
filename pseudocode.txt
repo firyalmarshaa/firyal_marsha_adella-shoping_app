@@ -1,3 +1,15 @@
 READ AND WRITE "username" with string
-READ AND WRITE "password" with setring
+READ AND WRITE "password" with string
 PRINT "login"
+
+READ AND WRITE "item_name" with string
+READ AND WRITE "nominal_item" with number
+print "result"
+
+STORE "choose_another_one_item" with string Yes
+STORE "choose_another_one_item" with string No
+
+IF "Yes"
+    PRINT "Item B"
+IF "No"
+    PRINT "masukkan barang kedalam keranjang"
