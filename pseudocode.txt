@@ -13,3 +13,7 @@ IF "Yes"
     PRINT "Item B"
 IF "No"
     PRINT "masukkan barang kedalam keranjang"
+
+READ AND WRITE "item_B_name" with string
+READ AND WRITE "nominal_item _B" with number
+print "result"
