@@ -1,0 +1,46 @@
+READ AND WRITE "username" with string
+READ AND WRITE "password" with string
+STORE "username" with firyalmarshaa
+STORE "password" with firyal123
+PRINT "username"
+PRINT "password"
+
+READ AND WRITE "item_name_A" with string
+READ AND WRITE "nominal_item_A" with number
+STORE "item_A" with tas
+STORE "nominal_item_A" with 1
+PRINT "item_A"
+PRINT "nominal_item_A"
+
+STORE "choose_another_one_item" with string Yes
+STORE "choose_another_one_item" with string No
+
+IF "Yes"
+    PRINT "Item B"
+ELSE "No"
+    PRINT "masukkan barang kedalam keranjang"
+
+READ AND WRITE "item_B_name" with string
+READ AND WRITE "nominal_item_B" with number
+STORE "item_B" with sepatu
+STORE "nominal_item_B" with 1
+PRINT "item_B"
+PRINT "nominal_item_B"
+
+PROCEDURE AddTwoString (item_A, item_B)
+STORE "result_item" with item_A AND item_B
+    PRINT "result_item"
+STORE "result_nominal" with nominal_item_A plus nominal_item_B
+    PRINT "result_nominal"
+END PROCEDURE
+
+STORE WHILE "ask_for_checkout" with Yes
+WHILE "ask_for_checkout"
+DO "item_name_A"
+
+IF "ask_for_checkout" with No
+    PRINT "checkout"
+
+READ AND WRITE "Addres" with string
+STORE "username" with JL.Anggrek
+PRINT "username"
