@@ -1,0 +1,3 @@
+READ AND WRITE "username" with string
+READ AND WRITE "password" with setring
+PRINT "login"
